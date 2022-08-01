@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #e0e4cc;
+      }
+        
+        .list-group-item:nth-child(odd) {
+            background-color: #fd0a54;
+        }
+         .list-group-item:nth-child(even) {
+            background-color: #23192d;
+        }
+
+        .close {
+           /* put to the side */
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: rgb(5, 5, 5);
+            background-color: #028f76;
+            padding: 0.03rem 0.03rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .text {
+          color: azure;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+        
+        .edit {
+            position: absolute;
+            right: 85px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: rgb(5, 5, 5);
+            background-color: #028f76;
+            padding: 0.06rem 0.06rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <section class="vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+              <h1 class="display text-center">To-Do list</h1>
+      
+              <div class="card">
+                <div class="card-body p-5">
+      
+                  <form class="d-flex justify-content-center align-items-center mb-4">
+                    <div class="form-outline flex-fill">
+                      <input type="text" id="form2" class="form-control" placeholder="New task..." />
+                      <label class="form-label" for="form2"></label>
+                    </div>
+                    <button type="submit" class="btn btn-info ms-2">Add</button>
+                  </form>
+      
+                  
+                  
+      
+                  <!-- Tabs content -->
+                  <div class="tab-content" id="ex1-content"> 
+                    
+                    <!-- <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel"
+                      aria-labelledby="ex1-tab-1">
+                      <ul class="list-group mb-0">
+                        <li class="list-group-item d-flex align-items-center border-0 mb-2 rounded"
+                          style="background-color: #f4f6f7;">
+                          <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." checked />
+                          <s>Cras justo odio</s>
+                        </li>
+                      </ul>
+                    </div> -->
+
+
+                    <!-- <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                      <ul class="list-group mb-0">
+                        <li class="list-group-item d-flex align-items-center border-0 mb-2 rounded"
+                          style="background-color: #f4f6f7;">
+                          <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." checked />
+                          <s>Cras justo odio</s>
+                        </li>    
+                        <li class="list-group-item d-flex align-items-center border-0 mb-2 rounded"
+                          style="background-color: #f4f6f7;">
+                          <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." checked />
+                          <s>Dapibus ac facilisis in</s>
+                          
+                        </li>
+                        
+                      </ul>
+                      
+                    </div>
+                    
+                  </div>
+                 
+  
+                 </div>
+              </div>
+      
+            </div>
+          </div> --> 
+        </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
