@@ -1,0 +1,48 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0e4cc;
+  }
+    
+    .list-group-item:nth-child(odd) {
+        background-color: #fd0a54;
+    }
+     .list-group-item:nth-child(even) {
+        background-color: #23192d;
+    }
+
+    .close {
+       /* put to the side */
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: rgb(5, 5, 5);
+        background-color: #028f76;
+        padding: 0.03rem 0.03rem;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .text {
+      color: azure;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    
+    .edit {
+        position: absolute;
+        right: 85px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: rgb(5, 5, 5);
+        background-color: #028f76;
+        padding: 0.06rem 0.06rem;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }

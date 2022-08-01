@@ -33,10 +33,6 @@ function addList() {
 
     input.value = "";
   }
-
-  function newFunction(task) {
-    localStorage.setItem("task", JSON.stringify(task));
-  }
 }
 
 // add task
